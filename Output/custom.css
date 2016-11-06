@@ -1,0 +1,58 @@
+.caption {
+	text-align: center;
+	font-size: 75%;
+}
+
+#diagram {
+	margin-bottom: 2em;
+	max-width: none;
+	padding: 0.25em 0.25em 0.25em;
+	background-color: #ffffff;
+	border-radius: 2px;
+	border: 1px solid #e1e1e1;
+}
+
+#diagram #intro {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+#diagram #intro .title {
+	font-size: 2em;
+	margin-bottom: 0;
+	color: #da0c23;
+}
+
+#diagram  #intro .content {
+	font-size: 1em;
+	margin: 0;
+	padding: 0;
+ 	border: none;
+}
+
+#diagram .box {
+	margin: 0 0.5em 0.75em;
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	background-color: #fcfcfc;
+}
+
+#diagram .box .head {
+	height: auto;
+}
+
+#diagram .box .head a {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#diagram .box_more .box .head {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+#diagram .box_one .content {
+  border-left: 1px solid #e1e1e1;
+	line-height: normal;
+	
+}
