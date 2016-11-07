@@ -14,7 +14,8 @@
 
 #diagram #intro {
 	text-align: center;
-	margin-bottom: 1em;
+	margin-bottom: 2em;
+	margin-top: 1em;
 }
 
 #diagram #intro .title {
@@ -39,6 +40,7 @@
 
 #diagram .box .head {
 	height: auto;
+	width: auto;
 }
 
 #diagram .box .head a {
@@ -54,5 +56,11 @@
 #diagram .box_one .content {
   border-left: 1px solid #e1e1e1;
 	line-height: normal;
-	
+}
+
+#diagram .box_one > p {
+    -webkit-flex: 1 1 12em;
+    -moz-flex: 1 1 12em;
+    -ms-flex: 1 1 12em;
+    flex: 1 1 12em;
 }
